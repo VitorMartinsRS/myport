@@ -306,9 +306,10 @@ margin-right: 100px;
         margin-right: 100px;
     }
     .content {
+        width: 100%;
         top: 10px;
         background-color: #131a31;
-        margin: 40px;
+        margin: 0px;
         padding: 10px 0px 0px 0px;
         border-radius: 20px;
         position: relative;
