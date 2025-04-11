@@ -342,9 +342,11 @@ margin-right: 100px;
          padding-top: 30px;
      }
      .econter{
+        display: block;
+        flex-direction: column;
         background-color: #04234b;
         width: 100%;
-        height: 900px;       
+        height: 1120px;       
         align-items: center;
         text-align: center;
         margin:80px 0px 75px 0px;
@@ -375,4 +377,61 @@ margin-right: 100px;
         text-align: center;
         
     }
+    .project h2{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .project h3{
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .project *{
+        width: 90%;
+        display: flex;
+        text-align: justify;
+        padding: 0px 0px 0px 40px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .project p{
+        padding-bottom: 10px;
+    
+        
+    }
+    .mtscis{
+        margin-right: 100px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-left: 100px;
+    }.fts-site{
+        display:flexbox;
+        justify-content: space-around;
+        flex-wrap: wrap; 
+        width: 100%;
+        justify-content: right;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .dvd{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+        .btn-proj{
+            margin-top: 25px;
+            background: #00d4ff;
+            color: #0a0f1e;
+            padding: 8px 15px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
 }
