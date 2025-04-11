@@ -143,13 +143,12 @@ img.eu{
 }
 .tex{
     width: 300px;
-    display: flex;
+
 }
 .tex p{
     width: 100%;
-    display: flex;
+
     justify-content: center;
-    align-items: center;
     text-align: justify;
     margin:10px 0px 0px 0px;
 }
@@ -191,11 +190,11 @@ img.eu{
 .footer {
     background-color: #04234b;
     padding-top: 20px;
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: fixed;
+    position:fixed ;
     width: 100%;
     height: 70px;
     bottom: 0px;
@@ -203,10 +202,10 @@ img.eu{
 }
 @media (max-width: 768px) {
     .hexagon-container {
-        width: 70px;
-        height: 80px;
+        width: 100px;
+        height: 110px;
         position: absolute;
-        right: 100px;
+        right: 50px;
         clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         background: #00d4ff;
         display: flex;
@@ -239,19 +238,19 @@ img.eu{
         width: 10px;
         background-color: #0a0f1e;
         border-radius: 10px;
-        margin: 10px;
+        margin-right: 120px;
         position: absolute;
     
     }
     img.eu{
-        width: 70px;
+        width: 100px;
         border-radius: 10px;
     }
     .content {
         top: 10px;
         background-color: #131a31;
-        margin: 20px;
-        padding: 20px 0px 0px 0px;
+        margin: 40px;
+        padding: 10px 0px 0px 0px;
         border-radius: 20px;
         position: relative;
         display: flex;
@@ -260,7 +259,6 @@ img.eu{
     }
     .tex{
         width: 300px;
-        display: flex;
     }
     .tex p{
         width: 100%;
@@ -269,7 +267,8 @@ img.eu{
         align-items: center;
         text-align: justify;
         margin:10px 0px 0px 0px;
-        padding:120px 0px 0px 0px;
+        padding:150px 0px 0px 0px;
+         
     }
     .especialidades{
         background-color:#04234b ;
@@ -305,7 +304,7 @@ img.eu{
         height: 60px;
     }
     p{
-        font-size: 12px;
+        font-size: 15px;
     }
     h1{
         font-size: 20px;
