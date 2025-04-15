@@ -43,13 +43,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 75px;
 }
 .menu-icon {
     background: #00d4ff;
     padding: 5px;
     border-radius: 5px;
-    cursor: pointer;
+    transition: left 0.1s ease;
+}
+.menu-icon:hover{
+    background-color: aqua;
 }
 .menu-icon div {
     width: 25px;
@@ -65,6 +68,10 @@ body {
     border: none;
     cursor: pointer;
     font-weight: bold;
+    transition: background 0.3s ;
+}
+.contact-button:hover{
+    background-color: aquamarine;
 }
 .content {
     top: 10px;
@@ -89,6 +96,10 @@ body {
     transition: left 0.1s ease;
     direction: none;
     z-index: 1;
+    
+}
+.sidebar :hover{
+    background-color: aquamarine;
 }
 .sidebar.active {
     left: 50px;
@@ -113,7 +124,10 @@ img.hex {
 }
 img.logo {
     width: 300px;
-
+ transition: all 0.5s ;
+}
+img.logo:hover{
+    transform: scale(1.1);
 }
 div.box-deu{
     align-items: center;
@@ -132,10 +146,10 @@ img.eu{
     border-radius: 10px;
 }
 img.site-png{
-    width: 320px;
+    width: 350px;
 }
 .fts-site{
-    display:flexbox;
+    display:flex;
     justify-content: space-around;
     flex-wrap: wrap; 
     width: 100%;
@@ -195,38 +209,35 @@ img.site-png{
     text-align: center;
     border-radius: 10px;
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 10px;
 }
 .dvd{
     display:flex;
 }
 .footer {
     background-color: #04234b;
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position:fixed ;
+    display: block;
+    justify-content: flex-end;
+    position:relative ;
     width: 100%;
-    height: 70px;
+    height: 100px;
     bottom: 0px;
-   
+    z-index:3;
 }
 .project h2{
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .project h3{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .project *{
     width: 60%;
     display: flex;
     text-align: justify;
-    padding: 0px 0px 0px 80px;
+    padding: 0px 0px 0px 40px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -238,11 +249,11 @@ img.site-png{
 }
  .ppp{
     color: #00eaff;
-    padding-left: 0px;
+    padding-left: 50px;
 }
 .obs{
     color: #ff0000;
-    padding: 0px 25px 0px 0px;
+    padding-left: 50px;
     margin: 0px;
     font-size: 12px;
 }
@@ -256,7 +267,25 @@ img.site-png{
     font-weight: bold;
 }
 .mtscis{
-margin-right: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width:40% ;
+}
+.copyright {
+    width: 100%;
+    height: 10px;
+    margin-top: 20px;
+    display: block;
+    justify-content: end;
+    align-items: end;
+    text-align:center ;
+}
+.footer-text{
+    display: block;
+    margin-top: 30px;
+    width: 100%;
 }
 @media (max-width: 768px) {
     .hexagon-container {
@@ -339,8 +368,7 @@ margin-right: 100px;
          align-items:baseline ;
          margin-top:45px;
      }
-     
-     .especialidades h2{
+    .especialidades h2{
          padding-top: 30px;
      }
      .econter{
@@ -351,11 +379,10 @@ margin-right: 100px;
         height: 1170px;       
         align-items: center;
         text-align: center;
-        margin:80px 0px 75px 0px;
-        border-radius: 10px;
+        margin:80px 0px 15px 0px;
     }
     img.logo {
-        width: 140px;
+        width: 190px;
     }
     .navbar {
         background-color: #04234b;
@@ -405,12 +432,18 @@ margin-right: 100px;
         
     }
     .mtscis{
-        margin-right: 100px;
+        display: flex;
         align-items: center;
         text-align: center;
         justify-content: center;
-        padding-left: 100px;
-    }.fts-site{
+        flex-direction: column;
+        width: 100%;
+        padding-right:25px ;
+    }
+    .mtscis h2{
+        padding-left: 27px;
+    }
+    .fts-site{
         display:flexbox;
         justify-content: space-around;
         flex-wrap: wrap; 
@@ -426,7 +459,7 @@ margin-right: 100px;
         align-items: center;
         justify-content: center;
         }
-        .btn-proj{
+    .btn-proj{
             margin-top: 25px;
             background: #00d4ff;
             color: #0a0f1e;
@@ -435,5 +468,5 @@ margin-right: 100px;
             border: none;
             cursor: pointer;
             font-weight: bold;
-        }
+    }
 }
