@@ -152,16 +152,6 @@ img.eu{
 img.site-png{
     width: 350px;
 }
-.fts-site{
-    display:flex;
-    justify-content: space-around;
-    flex-wrap: wrap; 
-    width: 100%;
-    justify-content: right;
-    align-items: center;
-    text-align: center;
-    margin-top: 20px;
-}
 .cabeçalho-main h1{
     width: 100%;
     display: flex;
@@ -207,22 +197,6 @@ img.site-png{
     align-items: center;
     flex-wrap: wrap; 
 }
-.econter{
-    display: flex;
-    background-color: #04234b;
-    width: 1685px;
-    flex-direction: column;
-    height: 740px;
-    padding-top: 10px ;  
-    align-items: center;
-    text-align: center;
-    border-radius: 10px;
-    margin-top: 100px;
-    margin-bottom: 10px;
-}
-.dvd{
-    display:flex;
-}
 .footer {
     background-color: #04234b;
     display: block;
@@ -233,39 +207,6 @@ img.site-png{
     bottom: 0px;
     z-index:3;
 }
-.project h2{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.project h3{
-    text-align: center;
-    margin-bottom: 5px;
-}
-.project *{
-    width: 60%;
-    display: flex;
-    text-align: justify;
-    padding: 0px 0px 0px 40px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.project p{
-    padding-bottom: 20px;
-
-    
-}
- .ppp{
-    color: #00eaff;
-    padding-left: 50px;
-}
-.obs{
-    color: #ff0000;
-    padding-left: 50px;
-    margin: 0px;
-    font-size: 12px;
-}
 .btn-proj{
     background: #00d4ff;
     color: #0a0f1e;
@@ -274,15 +215,6 @@ img.site-png{
     border: none;
     cursor: pointer;
     font-weight: bold;
-}
-.mtscis{
-
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width:40% ;
-    padding-right: 200px;
 }
 .copyright {
     width: 100%;
@@ -299,18 +231,19 @@ img.site-png{
     margin-top: 30px;
     width: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 1243px) {
     .hexagon-container {
-        width: 100px;
-        height: 110px;
+        width: 240px;
+        height: 290px;
         position: absolute;
-        right: 50px;
+        
         clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         background: #00d4ff;
         display: flex;
         justify-content: center;
         align-items: center;
         animation: moveHexagon 30s infinite ease-in-out;
+        margin: 20px,0,0,40px;
         
     }
     @keyframes moveHexagon {
@@ -338,11 +271,12 @@ img.site-png{
         background-color: #131a31;
         border-radius: 10px;
         margin-right: 190px;
-        position: absolute; 
+        margin: 15px 0px 0px 130px;
     
     }
     img.eu{
-        width: 100px;
+        
+        width: 240px;
         border-radius: 10px;
         margin-right: 40px;
     }
@@ -382,17 +316,7 @@ img.site-png{
      }
     .especialidades h2{
          padding-top: 30px;
-     }
-     .econter{
-        display: block;
-        flex-direction: column;
-        background-color: #04234b;
-        width: 100%;
-        height: 1170px;       
-        align-items: center;
-        text-align: center;
-        margin:80px 0px 15px 0px;
-    }
+     }  
     img.logo {
         width: 190px;
     }
@@ -418,59 +342,6 @@ img.site-png{
         text-align: center;
         
     }
-    .project h2{
-        font-size: 15px;
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-    .project h3{
-        text-align: center;
-        margin-bottom: 10px;
-        font-size: 13px;
-    }
-    .project *{
-        width: 90%;
-        display: flex;
-        text-align: justify;
-        padding: 0px 0px 0px 40px;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    .project p{
-        padding-bottom: 10px;
-    
-        
-    }
-    .mtscis{
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
-        padding-right:25px ;
-    }
-    .mtscis h2{
-        padding-left: 27px;
-    }
-    .fts-site{
-        display:flexbox;
-        justify-content: space-around;
-        flex-wrap: wrap; 
-        width: 100%;
-        justify-content: right;
-        align-items: center;
-        text-align: center;
-        margin-top: 20px;
-    }
-    .dvd{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        }
     .btn-proj{
             margin-top: 25px;
             background: #00d4ff;
@@ -480,5 +351,111 @@ img.site-png{
             border: none;
             cursor: pointer;
             font-weight: bold;
+    }
+}
+@media (max-width: 996px) {
+     .hexagon-container {
+        margin-top: 50px;
+        width: 170px;
+        height: 190px;
+        position: absolute;
+        right: 50px;
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        background: #00d4ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: moveHexagon 30s infinite ease-in-out;
+        
+    }
+    div.box-deu{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 10px;
+        background-color: #131a31;
+        border-radius: 10px;
+        margin-right: 190px;
+        margin: 50px 0px 0px 30px;
+    
+    }
+    img.eu{
+        width: 160px;
+        border-radius: 10px;
+       
+    }
+    .tex{
+        width: 300px;
+        margin-top: 50px;
+    }
+    .tex p{
+        width: 100%;
+        display: flex;
+        font-size: medium;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        margin:10px 0px 0px 0px;
+        padding:150px 0px 0px 0px;
+         
+    }
+}
+@media (max-width: 710px) {
+   .hexagon-container {
+        margin-top: 30px;
+        width: 120px;
+        height: 130px;
+        position: absolute;
+        right: 50px;
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        background: #00d4ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: moveHexagon 30s infinite ease-in-out;
+        
+    }
+      div.box-deu{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 10px;
+        background-color: #131a31;
+        border-radius: 10px;
+        margin-right: 190px;
+        margin: 50px 0px 0px 10px;
+    
+    }
+    img.eu{
+        width: 100px;
+        border-radius: 10px;
+        margin-right: 40px;
+    }
+    .tex{
+        width: 300px;
+        margin-top: 50px;
+    }
+    .tex p{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        margin:10px 0px 0px 0px;
+        padding:150px 0px 0px 0px;
+         
+    }
+    .content {
+        width: 100%;
+    top: 10px;
+    background-color: #131a31;
+  
+    padding: 50px;
+    border-radius: 20px;
+    min-height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
 }
