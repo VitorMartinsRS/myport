@@ -207,6 +207,60 @@ img.site-png{
     cursor: pointer;
     font-weight: bold;
 }
+.projetos{ 
+    background-color:#3b3b3b99 ;
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    justify-content: center;
+    align-items:baseline ;
+    margin-top:45px;
+}
+.projetos h2{
+    padding-top: 30px;
+}
+.projeto1{
+    margin-top: 40px; ;
+}
+ .carousel {
+    margin-top: 40px;
+ position: relative;
+width: 800px;
+margin: auto;
+overflow: hidden;
+}
+.carousel-images {
+display: flex;
+transition: transform 0.5s;
+}
+.carousel-img {
+display: none;
+width: 100%;
+height: auto;
+}
+.carousel-img.active {
+display: block;
+}
+.carousel-btn {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+background: #fff;
+border: none;
+font-size: 2rem;
+cursor: pointer;
+z-index: 1;
+padding: 0 10px;
+}
+.carousel-btn.prev {
+left: 0;
+}
+.carousel-btn.next {
+right: 0;
+}
+.aviso{
+    color: red;
+}
 @media (max-width: 1243px) {
     .hexagon-container {
         width: 240px;
@@ -219,6 +273,7 @@ img.site-png{
         align-items: center;
         animation: moveHexagon 30s infinite ease-in-out;
         margin: 20px,0,0,40px;
+        
         
     }
     @keyframes moveHexagon {
@@ -364,6 +419,12 @@ img.site-png{
         border-radius: 10px;
        
     }
+    .carousel {
+ position: relative;
+width: 600px;
+margin: auto;
+overflow: hidden;
+}
     .tex{
         width: 300px;
         margin-top: 50px;
@@ -438,5 +499,11 @@ img.site-png{
     justify-content: center;
     align-items:baseline ;
     margin-top:45px;
+}
+.carousel {
+ position: relative;
+width: 350px;
+margin: auto;
+overflow: hidden;
 }
 }
