@@ -261,6 +261,10 @@ right: 0;
 .aviso{
     color: red;
 }
+.descricao{
+    margin-top: 20px;
+    
+}
 @media (max-width: 1243px) {
     .hexagon-container {
         width: 240px;
